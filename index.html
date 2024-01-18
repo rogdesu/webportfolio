@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Roger Fuertes - Portfolio</title>
+
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar component from https://getbootstrap.com/-->
+    <nav id="navmenu" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#landing">Roger Fuertes Jr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#landing">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tools">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section landing -->
+    <section id="landing" class="container-fluid text-center p-5">
+        <div id="about-me" class="row mt-3 mb-3 justify-content-center align-items-center">
+            <div id="profile" class="col-12 col-md-6 col-lg-5 col-xl-4 pb-5">
+                <img src="./images/profile-picture.jpg" class="rounded-circle img-fluid" width="300" height="300">
+                <h2>Roger A. Fuertes Jr.</h2>
+                <h4 class="pt-2">Full Stack Web Developer</h3>
+            </div>
+
+            <div id="description" class="col-12 col-md-6 col-lg-5 col-xl-4 pr-5 pb-5">
+                <p>Hey there! I'm Roger, a Full Stack Developer with a knack for bringing web applications to life. I have experienced in MERN stack, a dash of Ruby on Rails, and getting cozy with JavaScript, React, and HTML/CSS for the frontend. Git is my go-to for version control, and Postman for API testing. Beyond the code, you might catch me gliding on ice. I find ice skating a lot like coding, a perfect blend of skill and creativity. Always up for learning and diving into the vast world of Full Stack Development, I'm here to craft innovative solutions and ride the tech wave. When I'm not coding or on the ice, you can probably find me with a cup of coffee, plotting my next coding adventure. Let's build something amazing together!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- My Project Section Start -->
+    <section id="projects" class="min-vh-100 p-5 text-light">
+
+        <h2 class="pb-3 pt-3 text-center">My Projects</h2>
+
+        <!-- Projects Container Start -->
+        <div class="d-lg-flex justify-content-center p-md-5">
+
+            <!-- Frontend Card Start -->
+            <div id="frontend-card" class="card col-xl-4 mb-5 mb-xl-0">
+                <div class="card-body">
+                    <img src="./images/frontend.png" class="card-img-top card-img-bottom img-fluid">
+                    <h5 class="card-title mt-3">Web Design</h5>
+                    <h6 class="card-subtitle text-muted mb-2">Frontend Programming</h6>
+                    <p class="card-text">
+                        Frontend programming involves crafting the visual elements and user interface of a website or application. It's all about bringing designs to life using languages like HTML for structure, CSS for styling, and JavaScript for interactivity. Frontend developers work tirelessly to create seamless, engaging user experiences, ensuring that websites not only look fantastic but also function flawlessly across various devices. In essence, frontend programming is the artistic and technical fusion that transforms design concepts into the interactive digital spaces we navigate daily.
+                    </p>
+                    <a href="#" class="card-link">Link To Project</a>
+                </div>
+            </div>
+            <!-- Frontend Card End -->
+
+            <!-- Backend Start -->
+            <div id="backend-card" class="card col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+                <div class="card-body">
+                    <img src="./images/backend.png" class="card-img-top card-img-bottom img-fluid">
+                    <h5 class="card-title mt-3">E-Commerce</h5>
+                    <h6 class="card-subtitle text-muted mb-2">Backend Programming</h6>
+                    <p class="card-text">
+                        Backend programming is the engine behind the scenes, powering the functionality and data processing of websites and applications. It involves server-side development using languages like Node.js, Python, or Ruby, managing databases, and handling server logic. Backend developers build the infrastructure that supports frontend interactions, ensuring data storage, retrieval, and overall system functionality. In essence, backend programming is the architecture that enables dynamic and data-driven experiences, connecting the user interface to databases and external services, and making everything work seamlessly.
+                    </p>
+                    <a href="#" class="card-link">Link To Project</a>
+                </div>
+            </div>
+            <!-- Backend Card End -->
+
+            <!-- Fullstack Card Start -->
+            <div id="fullstack-card" class="card col-xl-4 mb-5 mb-xl-0">
+                <div class="card-body">
+                    <img src="./images/fullstack.png" class="card-img-top card-img-bottom img-fluid">
+                    <h5 class="card-title mt-3">E-Commerce API</h5>
+                    <h6 class="card-subtitle text-muted mb-2">Fullstack Development</h6>
+                    <p class="card-text">
+                        Full Stack development combines both frontend and backend programming skills, allowing developers to handle the entire web development process. A Full Stack Developer is proficient in both client-side and server-side technologies, managing everything from designing responsive interfaces with HTML, CSS, and JavaScript to building robust server logic using languages like Node.js, Python, or Ruby. They seamlessly integrate databases, handle server-side functionalities, and ensure the smooth flow of data between the frontend and backend, resulting in comprehensive, end-to-end solutions. In essence, a Full Stack Developer possesses the versatility to bring a complete web project to life, from conception to deployment.
+                    </p>
+                    <a href="#" class="card-link">Link To Project</a>
+                </div>
+            </div>
+            <!-- Fullstack Card End -->
+
+        </div>
+        <!-- Projects Container End -->
+    </section>
+
+    <!-- Tools section -->
+    <section class="my-3 d-flex flex-column justify-content-center align-items-center text-white" id="tools">
+        <h2 class="text-center my-5">Tools</h2>
+        <div class="d-flex flex-wrap justify-content-center mb-4">
+            <img class=" m-1 rounded" width="100" src="images/logo-html5.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-css3.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-javascript.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-mongodb.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-nodejs.png"">
+                <img class=" m-1 rounded" width="100" src="images/logo-expressjs.png">
+        </div>
+        <div class="d-flex flex-wrap justify-content-center mb-4">
+            <img class=" m-1 rounded" width="100" src="images/logo-react.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-heroku.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-git.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-sublime-text-3.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-postman.png">
+            <img class=" m-1 rounded" width="100" src="images/logo-gitlab-ci-cd.png">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <h2 class="text-center my-5 text-light">Contact</h2>
+    <div id="contact" class="container text-light">
+        <div class="row">
+            <form class="col-9 col-md-4 mx-auto">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <input type="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn-purple-gradient btn-outline-primary btn-block">Send</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="footer mt-5 p-2">
+        <div class="container mt-2 text-white">
+            <p class="text-center mb-0">Capstone 1 | All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

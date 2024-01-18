@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: black;
+}
+
+#navmenu {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    /* position: fixed; --add fixed for the navbar after everything else */
+}
+
+h2 {
+    font-family: 'Fira Code', sans-serif;
+}
+
+#landing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/landing-bg.jpg");
+    color: azure;
+    background-size: cover;
+    /* background-position: center; */
+}
+
+#frontend-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/project2-2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#backend-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/project1-1.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#fullstack-card {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/project3-3.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#tools-section {
+    /* background-color: black; */
+}
+
+.btn-purple-gradient {
+    background: linear-gradient(to right, #FF0000, #800080);
+    /* Red to purple gradient */
+    color: white;
+    /* Text color, adjust as needed */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    /* Smooth transition effect */
+}
+
+.btn-purple-gradient:hover {
+    background: linear-gradient(to right, #800080, #FF0000);
+    /* Swap the gradient on hover */
+}
+
+footer {
+    background-color: #110f0f;
+}
